@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle uml2sqlite",
+        "command": "uml2sqlite:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "uml2sqlite",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "uml2sqlite:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
