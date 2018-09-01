@@ -1,10 +1,9 @@
 {
   "name": "uml2sqlite",
   "main": "./lib/uml2sqlite",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "convert plantUML Class diagram to Sqlite SQL script",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "uml2sqlite:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
