@@ -1,14 +1,14 @@
 {
   "name": "uml2sqlite",
   "main": "./lib/uml2sqlite",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "convert plantUML Class diagram to Sqlite SQL script",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "uml2sqlite:toggle"
   },
-  "repository": "https://github.com/atom/uml2sqlite",
+  "repository": "https://github.com/gilliot/atom-uml2sqlite",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
