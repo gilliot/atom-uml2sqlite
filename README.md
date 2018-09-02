@@ -1,7 +1,7 @@
 # atom-uml2sqlite
 convert plantUML Class diagram to Sqlite SQL script
 
- ## Description 
+ ## Description
 
 uml2sqlite convert database structure in  UML code in the curent pane into SQL creation table code for [Sqlite](https://www.sqlite.org) in a new pane.
 
@@ -37,8 +37,8 @@ Each field that is a primary key is preceded by the symbol "#". It is possible t
 ## indexed field
 each field to be indexed is preceded by the symbol "+"
 ## Foreign key constraint
-Foreign key constraint could be added among the field lines. Foreign key line must started with the characters: "_FK_", in the previous example:
+Foreign key constraint could be added among the field lines. Foreign key line must started with the characters: ```"_FK_"```, in the previous example:
 
-_FK_ t2_id Table2(id)
+```_FK_``` t2_id Table2(id)
 
 t2_id is a field in the current table (Table1) id is a field in an other table (Table2)
